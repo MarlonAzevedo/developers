@@ -4,8 +4,8 @@ const util = require('util')
 var con = mysql.createPool({
     host: "localhost",
     user: "root",
-    password: "M@rlon123",
-    database: "Ligue",
+    password: "root",
+    database: "ligue",
     connectTimeout: 60000,
 });
 
